@@ -25,28 +25,36 @@ const Goal = () => {
     return (
         <div className=''>
 
-            <div className='flex gap-3 my-6'>
-                <Avatar src={aim} />
-                <p className=' text-2xl'>Goals</p>
+            <div className='flex gap-3 my-6 justify-between'>
+                <span className='flex gap-3'>
+                    <Avatar src={aim} />
+                    <p className=' text-2xl'>Goals</p>
+                </span>
 
-                <IconWrapper style={{ marginLeft: '200px' }}>
+                <IconWrapper >
                     <ExpandCircleDownIcon />
                 </IconWrapper>
 
             </div>
 
-            <div className='flex gap-3 my-6'>
-                <Avatar src={food} />
-                <p className=' text-2xl'>Popular Dishes</p>
+            <div className='flex gap-3 my-6 justify-between'>
 
-                <IconWrapper style={{ marginLeft: '103px' }}>
+                <span className='flex gap-3'>
+
+                    <Avatar src={food} />
+                    <p className=' text-2xl'>Popular Dishes</p>
+                </span>
+                <IconWrapper >
                     <ExpandCircleDownIcon />
                 </IconWrapper>
             </div>
-            <div className='flex gap-3 my-6'>
-                <Avatar src={menu} />
-                <p className=' text-2xl'>Menus</p>
-                <IconWrapper style={{ marginLeft: '188px' }}>
+            <div className='flex gap-3 my-6 justify-between'>
+
+                <span className='flex gap-3'>
+                    <Avatar src={menu} />
+                    <p className=' text-2xl'>Menus</p>
+                </span>
+                <IconWrapper  >
                     <ExpandCircleDownIcon />
                 </IconWrapper>
             </div>

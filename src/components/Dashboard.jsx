@@ -111,7 +111,7 @@ const Dashboard = () => {
 
                     </div>
 
-                    <div className='md:col-span-1 bg-gray-900 mr-3 rounded-md shadow-lg p-3 pl-5'>
+                    <div className='md:col-span-1 bg-gray-900 md:mr-3 md:mt-0 mt-3 md:mb-0 mb-3 rounded-md shadow-lg p-3 pl-5'>
 
                         <Goal />
                     </div>

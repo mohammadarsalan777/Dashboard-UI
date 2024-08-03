@@ -24,7 +24,7 @@ const Goal = () => {
     return (
         <div className=''>
 
-            <div className='flex align-middle'>
+            <div className='flex '>
                 <Avatar src={aim} />
                 <p>Goal</p>
             </div>

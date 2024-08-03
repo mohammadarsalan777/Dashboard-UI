@@ -3,7 +3,8 @@ import { alpha, Avatar, styled } from '@mui/material';
 import menu from '../assets/menu.png'
 import food from '../assets/food-platter.png'
 import aim from '../assets/aim.png'
-
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
+import ArrowDropDownCircleIcon from '@mui/icons-material/ArrowDropDownCircle';
 
 
 const IconWrapper = styled('div')(({ theme }) => ({
@@ -11,11 +12,11 @@ const IconWrapper = styled('div')(({ theme }) => ({
     alignItems: 'center',
     gap: theme.spacing(2),
     '& svg': {
-        backgroundColor: theme.palette.common.white, // Set background color to white
+        backgroundColor: alpha(theme.palette.common.white, 0.15),
         borderRadius: '50%',
-        padding: theme.spacing(3), // Increase padding for larger icons
-        fontSize: '4rem', // Increase font size for larger icons
-        color: 'red',
+        padding: theme.spacing(1),
+        fontSize: '2.5rem',
+        color: 'gray',
     },
 }));
 
@@ -24,16 +25,30 @@ const Goal = () => {
     return (
         <div className=''>
 
-            <div className='flex '>
+            <div className='flex gap-3 my-6'>
                 <Avatar src={aim} />
-                <p>Goal</p>
+                <p className=' text-2xl'>Goals</p>
+
+                <IconWrapper style={{ marginLeft: '200px' }}>
+                    <ExpandCircleDownIcon />
+                </IconWrapper>
+
             </div>
 
-            <div>
+            <div className='flex gap-3 my-6'>
                 <Avatar src={food} />
+                <p className=' text-2xl'>Popular Dishes</p>
+
+                <IconWrapper style={{ marginLeft: '103px' }}>
+                    <ExpandCircleDownIcon />
+                </IconWrapper>
             </div>
-            <div>
+            <div className='flex gap-3 my-6'>
                 <Avatar src={menu} />
+                <p className=' text-2xl'>Menus</p>
+                <IconWrapper style={{ marginLeft: '188px' }}>
+                    <ExpandCircleDownIcon />
+                </IconWrapper>
             </div>
 
         </div >

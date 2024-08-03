@@ -111,8 +111,8 @@ const Dashboard = () => {
 
                     </div>
 
-                    <div className='md:col-span-1 border'>
-                        <h1>Goals</h1>
+                    <div className='md:col-span-1 bg-gray-900 mr-3 rounded-md shadow-lg p-3 pl-5'>
+
                         <Goal />
                     </div>
 

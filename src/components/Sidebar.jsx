@@ -118,7 +118,7 @@ const Sidebar = () => {
                         <ListItemText primary="Carts" />
                     </StyledListItem>
                 </List>
-                <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+                <br /><br /><br /><br /><br /><br /><br /><br /><br />
                 <Divider />
                 <List style={{ marginTop: 'auto' }}>
                     <StyledListItem button active={activeIndex === 5} onClick={() => handleListItemClick(5)}>

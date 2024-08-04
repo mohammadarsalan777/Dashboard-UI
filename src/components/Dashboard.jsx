@@ -7,6 +7,7 @@ import Spinner from './Spinner';
 import LineChart from './LineChart';
 import ActivityBar from './ActivityBar';
 import Goal from './Goal';
+import RecentOrders from './RecentOrders';
 
 
 const orderWeek3 = {
@@ -116,8 +117,9 @@ const Dashboard = () => {
                         <Goal />
                     </div>
 
-                    <div className='md:col-span-2 border'>
-                        <h1>Reacent Orders</h1>
+                    <div className='md:col-span-2 bg-gray-900 md:p-3 md:mx-[11px] mt-3 md:mt-[11px] rounded shadow-md '>
+                        <h1 className="text-xl font-semibold mb-4 text-start">Reacent Orders</h1>
+                        <RecentOrders />
                     </div>
 
                     <div className='md:col-span-1 border'>

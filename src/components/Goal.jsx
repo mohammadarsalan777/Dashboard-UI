@@ -29,7 +29,7 @@ const Accordion = styled('div')(({ theme }) => ({
     borderRadius: theme.shape.borderRadius,
     backgroundColor: '#111827', // Set the background color
     '&:hover': {
-        backgroundColor: alpha('#111827', 0.8), // Adjust hover background color if needed
+        backgroundColor: alpha('#111827', 0.3), // Adjust hover background color if needed
     },
 }));
 

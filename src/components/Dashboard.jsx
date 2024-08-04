@@ -8,6 +8,7 @@ import LineChart from './LineChart';
 import ActivityBar from './ActivityBar';
 import Goal from './Goal';
 import RecentOrders from './RecentOrders';
+import Feedback from './Feedback';
 
 
 const orderWeek3 = {
@@ -122,8 +123,9 @@ const Dashboard = () => {
                         <RecentOrders />
                     </div>
 
-                    <div className='md:col-span-1 border'>
-                        <h1>Feedback</h1>
+                    <div className='md:col-span-1 bg-gray-900 md:mr-3 md:mt-[11px] mt-3 md:mb-0 mb-3 rounded-md shadow-lg p-3 pl-5'>
+                        <h1 className="text-xl font-semibold mb-4 text-start md:mx-3">Customer's Feedback</h1>
+                        <Feedback />
                     </div>
                 </div>
             </div>

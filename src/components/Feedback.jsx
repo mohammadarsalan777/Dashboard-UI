@@ -18,7 +18,7 @@ const IconWrapper = styled('div')(({ theme }) => ({
 
 const Feedback = () => {
     return (
-        <div className='h-56 md:h-[23rem] overflow-y-auto p-2'>
+        <div className='h-[25rem] md:h-[23rem] overflow-y-auto p-2'>
             <style jsx>{`
                 ::-webkit-scrollbar {
                     width: 4px;
